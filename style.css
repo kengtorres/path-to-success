@@ -75,17 +75,22 @@ text-align: center;
 
 h1, h2 {
 font-family: "Kavoon", serif;
+margin: 0;
 }
 
 h1 {
 	font-size: 3em;
+	background-color: var(--purple);
 	color: var(--white);
+	text-align: center;
 }
+
 nav {
 	text-align: center;
 }
 nav h2 {
 	font-size: 1.5em;
+	font-family: 'Kavoon', serif;
 }
 h2 {
 	font-size: 2em;
@@ -100,4 +105,24 @@ h4 {
 nav {
 	background: var(--purple);
 	padding: 10px;
+}
+section {
+	background: var(--white);
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 1rem;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1rem;
+}
+table th {
+	background: var(--yellow);
+	color: #1E1E1E;
+	text-align: left;
+}
+table td {
+	border-top: 1px;
+	background: var(--white);
 }
