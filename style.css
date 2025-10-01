@@ -147,14 +147,17 @@ h4 {
 
 table {
 	width: 100%;
-	border-collapse: collapse;
+	border-radius: 5px;
 	margin: 1rem;
 }
+
 table th {
 	background: var(--yellow);
-	color: #1E1E1E;
+	color: var(--dark-gray);
 	text-align: left;
+	padding: .5rem;
 }
+ 
 table td {
 	border-top: 1px;
 	background: var(--white);
