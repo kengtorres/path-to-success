@@ -149,13 +149,18 @@ table {
 	width: 100%;
 	border-collapse: collapse;
 	margin: 1rem;
+	border-radius: 5px;
 }
 table th {
 	background: var(--yellow);
-	color: #1E1E1E;
+	color: var(--dark-gray);
 	text-align: left;
+	padding: .5rem;
 }
 table td {
 	border-top: 1px;
 	background: var(--white);
+}
+footer {
+
 }
